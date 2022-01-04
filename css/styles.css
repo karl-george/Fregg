@@ -176,3 +176,32 @@ p {
     max-width: 700px;
   }
 }
+
+/* Quote */
+.quote-block {
+  text-align: center;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.quote h3 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.quote-content {
+  margin-bottom: 6rem;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+  .quote-block {
+    text-align: left;
+  }
+
+  .quote-block .grid {
+    justify-items: center;
+    align-items: center;
+  }
+}
