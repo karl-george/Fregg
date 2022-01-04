@@ -26,6 +26,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .grid {
+    justify-items: center;
+    align-items: center;
+  }
+
   .grid-1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -167,11 +172,6 @@ p {
     text-align: left;
   }
 
-  .about-us .grid {
-    justify-items: center;
-    align-items: center;
-  }
-
   .about-us-img {
     max-width: 700px;
   }
@@ -199,9 +199,61 @@ p {
   .quote-block {
     text-align: left;
   }
+}
 
-  .quote-block .grid {
-    justify-items: center;
-    align-items: center;
+body {
+  /* TODO:Get rid of this!! */
+  background-color: blue;
+}
+
+/* Get in touch block */
+
+.in-touch-block {
+  background-color: white;
+  padding: 3rem;
+  text-align: center;
+}
+
+.in-touch-title {
+  text-align: center;
+}
+
+.touch-seperator {
+  width: 500px;
+  height: 20px;
+  margin-bottom: 5rem;
+}
+
+textarea {
+  resize: none;
+  height: 12rem;
+}
+
+.input {
+  border: 1px solid var(--color-text-dark);
+  color: white;
+  font-size: 1.8rem;
+  outline: 0;
+  padding: 1.5rem 1rem;
+  width: 90%;
+  background-color: #1c1b2d;
+}
+
+.input-group {
+  margin: 2rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .in-touch-block {
+    text-align: left;
+  }
+
+  .get-in-touch {
+    width: 100%;
+  }
+
+  .in-touch-img {
+    margin-top: -7rem;
+    max-width: 500px;
   }
 }
