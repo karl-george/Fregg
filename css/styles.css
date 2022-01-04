@@ -31,6 +31,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
   line-height: 1.5;
+  color: var(--color-body);
 }
 
 h1,
@@ -78,7 +79,6 @@ p {
 /* Buttons */
 
 .btn {
-  margin: 10px 20px;
   cursor: pointer;
   border: 0;
   outline: 0;
@@ -108,4 +108,18 @@ p {
   border: 3px solid var(--color-primary);
   padding: 1.2rem 1.7rem;
   text-transform: uppercase;
+}
+
+/* Media Block */
+
+.media-block {
+  padding: 1rem;
+}
+
+.icon {
+  max-width: 60px;
+}
+
+.media-block h3 {
+  margin: 0rem 0 1.5rem;
 }
