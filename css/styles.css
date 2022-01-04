@@ -34,6 +34,11 @@
   .grid-1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .grid-3x2 {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 
 /* Typography */
@@ -201,11 +206,6 @@ p {
   }
 }
 
-body {
-  /* TODO:Get rid of this!! */
-  background-color: blue;
-}
-
 /* Get in touch block */
 
 .in-touch-block {
@@ -255,5 +255,55 @@ textarea {
   .in-touch-img {
     margin-top: -7rem;
     max-width: 500px;
+  }
+}
+
+/* Testimonial */
+
+.testimonial-content {
+  background: var(--color-primary);
+  color: white;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.testimonial-img {
+  grid-area: img;
+}
+
+.testimonial-title {
+  grid-area: title;
+}
+
+.testimonial-title-colored {
+  color: var(--color-primary);
+}
+
+.testimonial-content {
+  grid-area: content;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonial-block {
+    max-width: 870px;
+    margin: 0 auto;
+    grid-template-areas:
+      "img title title"
+      "content content content";
+    row-gap: -50px;
+    justify-items: start;
+  }
+
+  .testimonial-content {
+    max-width: 870px;
+  }
+
+  .testimonial-img {
+    max-width: 250px;
+    margin-bottom: -20px;
+  }
+
+  .testimonial-title {
+    width: 100%;
   }
 }
