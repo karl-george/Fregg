@@ -135,20 +135,6 @@ p {
   text-transform: uppercase;
 }
 
-/* Media Block */
-
-.media-block {
-  padding: 1rem;
-}
-
-.icon {
-  max-width: 60px;
-}
-
-.media-block h3 {
-  margin: 0rem 0 1.5rem;
-}
-
 /* About Us */
 .about-us {
   text-align: center;
@@ -350,4 +336,40 @@ textarea {
 
 .contact-us-icon {
   max-width: 50px;
+}
+
+/* Media Block */
+
+.media-block {
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto 5rem;
+}
+
+.media-icon {
+  max-width: 60px;
+}
+
+.media-block h3 {
+  margin: 0rem 0 1.5rem;
+}
+
+.media-block p {
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .media-block {
+    text-align: left;
+  }
+}
+
+/* At Your Service */
+
+.services-title {
+  text-align: center;
+}
+
+.services-block {
+  padding: 0 2rem;
 }
