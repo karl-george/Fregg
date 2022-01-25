@@ -465,6 +465,14 @@ a {
   }
 }
 
-body {
-  background-color: rgb(243, 174, 174);
+/* Footer */
+
+.footer {
+  background: black;
+}
+
+.footer-content {
+  color: rgb(151, 151, 151);
+  text-align: center;
+  padding: 1rem;
 }
