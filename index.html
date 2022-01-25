@@ -9,77 +9,35 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="outer-container">
-      <div class="inner-container">
-        <div class="services-title">
-          <h2>At Your Service</h2>
-          <img class="touch-seperator" src="images/line.png" alt="" />
-        </div>
-        <div class="services-block grid grid-1x2">
-          <div class="media-block">
-            <img
-              class="media-icon"
-              src="images/heart.png"
-              alt="Picture of a heart icon"
-            />
-            <h3>Written with Love</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              repellat? Nulla ratione sit modi quas. Magni, praesentium. Enim
-              iure est nam quisquam dignissimos quibusdam alias accusamus
-              molestias natus sapiente!
-            </p>
-            <button class="btn btn-outline">Read More</button>
-          </div>
-          <div class="media-block">
-            <img
-              class="media-icon"
-              src="images/ff.png"
-              alt="Picture of a heart icon"
-            />
-            <h3>Fast Turnaround</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              repellat? Nulla ratione sit modi quas. Magni, praesentium. Enim
-              iure est nam quisquam dignissimos quibusdam alias accusamus
-              molestias natus sapiente!
-            </p>
-            <button class="btn btn-outline">Read More</button>
-          </div>
-        </div>
-        <div class="services-block grid grid-1x2">
-          <div class="media-block">
-            <img
-              class="media-icon"
-              src="images/letter.png"
-              alt="Picture of a heart icon"
-            />
-            <h3>Up to Date</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              repellat? Nulla ratione sit modi quas. Magni, praesentium. Enim
-              iure est nam quisquam dignissimos quibusdam alias accusamus
-              molestias natus sapiente!
-            </p>
-            <button class="btn btn-outline">Read More</button>
-          </div>
-          <div class="media-block">
-            <img
-              class="media-icon"
-              src="images/notes.png"
-              alt="Picture of a heart icon"
-            />
-            <h3>Premium Content</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              repellat? Nulla ratione sit modi quas. Magni, praesentium. Enim
-              iure est nam quisquam dignissimos quibusdam alias accusamus
-              molestias natus sapiente!
-            </p>
-            <button class="btn btn-outline">Read More</button>
-          </div>
+    <!-- Nav Bar -->
+    <header>
+      <div class="outer-container">
+        <div class="inner-container">
+          <nav class="nav collapsible" id="home">
+            <a aria-label="Fregg" class="nav-brand" href="#"
+              ><img class="nav-icon" src="images/typewriter.png" />
+              <span class="brand-title">FREGG</span>
+            </a>
+            <img class="nav-icon nav-toggler" src="images/menu.png" />
+            <ul class="list nav-list collapsible-content">
+              <li class="nav-item">
+                <a href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
+    </header>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
