@@ -334,3 +334,20 @@ textarea {
     font-size: 3rem;
   }
 }
+
+/* Contact Us */
+
+.contact-us-title {
+  text-align: center;
+}
+
+.contact-us-icons-block {
+  max-width: 450px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.contact-us-icon {
+  max-width: 50px;
+}
