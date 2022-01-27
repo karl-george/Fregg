@@ -198,7 +198,7 @@ p {
 @media screen and (min-width: 768px) {
   .quote {
     text-align: left;
-    margin: 0 auto;
+    margin: 6rem auto 0;
   }
 }
 
@@ -258,6 +258,10 @@ textarea {
     margin-top: -7rem;
     max-width: 500px;
   }
+
+  .in-touch-title {
+    margin-top: 10rem;
+  }
 }
 
 /* Testimonial */
@@ -286,6 +290,10 @@ textarea {
 
 .testimonial-content {
   text-align: center;
+}
+
+.testimonial-img {
+  max-width: 250px;
 }
 
 .quote1 {
@@ -321,7 +329,6 @@ textarea {
 
   .testimonial-img {
     grid-area: img;
-    max-width: 250px;
     margin-bottom: -50px;
   }
 
@@ -346,7 +353,7 @@ textarea {
 .contact-us-icons-block {
   max-width: 450px;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 6rem;
   justify-content: space-around;
 }
 
@@ -388,6 +395,8 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 4rem;
+  padding-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 
 .services-title {
@@ -500,13 +509,13 @@ a {
   color: rgb(151, 151, 151);
   text-align: center;
   padding: 1rem;
+  margin-bottom: 0;
 }
 
 /* Hero */
 
 .hero {
-  background: url(../images/heroimg.png);
-  background-repeat: no-repeat;
+  background: url(../images/heroimg.png) no-repeat center center;
   background-size: cover;
   text-align: center;
   padding: 1rem;
@@ -534,7 +543,6 @@ a {
 @media screen and (min-width: 768px) {
   .hero {
     text-align: left;
-    height: 85vh;
     padding: 3rem;
   }
 
@@ -545,5 +553,9 @@ a {
 
   .title-content {
     margin: 4rem 0 10rem;
+  }
+
+  .hero button {
+    margin-bottom: 15rem;
   }
 }
